@@ -48,8 +48,23 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-size: 21px;
+  color: #000000;
+  margin-bottom: 15px;
+  line-height: 1.4em;
+}
+
+.page_title {
+  margin-top: 100px;
+  font-size: 62px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
 .main-header {
   padding: 37px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 .main-header .container {
   display: flex;
@@ -90,6 +105,10 @@ body {
   margin: 0px auto;
 }
 
+.page_header {
+  margin-bottom: 100px;
+}
+
 .hero {
   background-color: #000000;
   height: 740px;
@@ -97,7 +116,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(/images/hero.jpg);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(../images/hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
@@ -114,6 +133,7 @@ body {
 .hero p {
   font-size: 30px;
   margin-bottom: 30px;
+  color: #ffffff;
 }
 .hero a.btn {
   display: inline-block;
@@ -126,6 +146,47 @@ body {
 }
 .hero a.btn:hover {
   opacity: 0.8;
+}
+
+.services_box_wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.services_box_wrapper .service_item {
+  flex-basis: 48%;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  margin-bottom: 50px;
+}
+.services_box_wrapper .service_item img {
+  width: 100%;
+  height: auto;
+}
+.services_box_wrapper .service_item div {
+  padding: 30px;
+  text-align: center;
+}
+.services_box_wrapper .service_item div h4 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.services_box_wrapper .service_item div a {
+  color: #814ebf;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.service_section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.heading_text {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 100px;
+  font-weight: lighter;
 }
 
 /*# sourceMappingURL=styles.css.map */
